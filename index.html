@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    
+    <div class="color-gradient">
+    <form onsubmit="return submitted()"  id="form">
+        
+            <h2 id="heading">FORM</h2>
+
+            <label for="fullname">Full Name:</label>
+            <input placeholder="Your Full Name"  type="text" id="fullname" name="fullname">
+            <span id="fullname-error" class="error-messages"></span>
+       
+            <label for="email">Email:</label>
+            <input placeholder="Your Email" type="text" id="email" name="email">
+            <span id="email-error" class="error-messages"></span>
+      
+            <label for="contact">Contact Number:</label>
+            <input placeholder="Your Contact Number" type="number" id="contact" name="contact">
+            <span id="contact-error" class="error-messages"></span>
+    
+            <label for="password">Password:</label>
+            <input placeholder="Your Password" type="password" id="password" name="password">
+            <span id="password-error" class="error-messages"></span>
+ 
+            <label for="confirm-password">Confirm Password:</label>
+            <input placeholder="Confirm Your Password" type="password" id="confirm-password" name="confirm-password">
+            <span id="confirm-password-error" class="error-messages"></span>
+       
+        <input type="submit" name="submit" id="submit">
+    </form>    
+    </div>
+
+</body>
+</html>
